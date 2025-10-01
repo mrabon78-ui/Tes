@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created with Broadpeak BkS350 Origin Packager (version=1.12.11-29361) -->
+<MPD xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:mpeg:dash:schema:mpd:2011" xmlns:cenc="urn:mpeg:cenc:2013" xsi:schemaLocation="urn:mpeg:dash:schema:mpd:2011 http://standards.iso.org/ittf/PubliclyAvailableStandards/MPEG-DASH_schema_files/DASH-MPD.xsd" type="dynamic" availabilityStartTime="1970-01-01T00:00:00Z" publishTime="2025-10-01T13:34:26.754865Z" minimumUpdatePeriod="PT2S" timeShiftBufferDepth="PT30M" suggestedPresentationDelay="PT14S" maxSegmentDuration="PT3S" minBufferTime="PT2S" profiles="urn:mpeg:dash:profile:isoff-live:2011">
+  <Period id="1" start="PT0S">
+    <BaseURL>https://ucdn.starhubgo.com/bpk-tv/Astro_warna_new/output/manifest.mpd</BaseURL>
+    <AdaptationSet id="1" group="1" contentType="audio" segmentAlignment="true" audioSamplingRate="24000" mimeType="audio/mp4" codecs="mp4a.40.2" startWithSAP="1">
+      <AudioChannelConfiguration schemeIdUri="urn:mpeg:dash:23003:3:audio_channel_configuration:2011" value="1"/>
+      <!-- Common Encryption -->
+      <ContentProtection schemeIdUri="urn:mpeg:dash:mp4protection:2011" value="cenc" cenc:default_KID="8B08559F-2EFB-4075-B6B3-1666B412932D">
+      </ContentProtection>
+      <!-- PlayReady -->
+      <ContentProtection schemeIdUri="urn:uuid:9A04F079-9840-4286-AB92-E65BE0885F95" value="MSPR 2.0">
+      </ContentProtection>
+      <!-- Widevine -->
+      <ContentProtection schemeIdUri="urn:uuid:EDEF8BA9-79D6-4ACE-A3C8-27DCD51D21ED">
+      </ContentProtection>
+      <Role schemeIdUri="urn:mpeg:dash:role:2011" value="main"/>
+      <SegmentTemplate timescale="48000" initialization="Astro_warna_new-$RepresentationID$.dash" media="Astro_warna_new-$RepresentationID$-$Time$.dash">
+        <!-- 2025-10-01T13:04:23.029270Z / 1759323863 - 2025-10-01T13:34:25.055937Z -->
+        <SegmentTimeline>
+          <S t="84447545425405" d="96256" r="5"/>
+          <S d="94208"/>
+          <S d="96256" r="6"/>
+          <S d="94208"/>
+          <S d="96256" r="6"/>
+          <S d="94208"/>
+          <S d="96256" r="6"/>
+          <S d="94208"/>
+          <S d="96256" r="6"/>
+          <S d="94208"/>
+          <S d="96256" r="6"/>
+          <S d="94208"/>
+          <S d="96256" r="6"/>
+          <S d="94208"/>
+          <S d="96256" r="6"/>
+          <S d="94208"/>
+          <S d="96256" r="6"/>
+          <S d="94208"/>
+          <S d="96256" r="6"/>
+          <S d="94208"/>
+          <S d="96256" r="6"/>
+          <S d="94208"/>
+          <S d="96256" r="6"/>
+          <S d="94208"/>
+          <S d="96256" r="6"/>
+          <S d="94208"/>
+          <S d="96256" r="6"/>
+          <S d="94208"/>
+          <S d="96256" r="6"/>
+          <S d="94208"/>
+          <S d="96256" r="6"/>
+          <S d="94208"/>
+          <S d="96256" r="6"/>
+          <S d="94208"/>
+          <S d="96256" r="6"/>
+          <S d="94208"/>
+          <S d="96256" r="6"/>
+          <S d="94208"/>
+          <S d="96256" r="6"/>
+          <S d="94208"/>
+          <S d="96256" r="6"/>
+          <S d="94208"/>
+          <S d="96256" r="6"/>
+          <S d="94208"/>
+          <S d="96256" r="6"/>
+          <S d="94208"/>
+          <S d="96256" r="6"/>
+          <S d="94208"/>
+          <S d="96256" r="6"/>
+          <S d="94208"/>
+          <S d="96256" r="6"/>
+          <S d="94208"/>
+          <S d="96256" r="6"/>
+          <S d="94208"/>
+          <S d="96256" r="6"/>
+          <S d="94208"/>
+          <S d="96256" r="6"/>
+          <S d="94208"/>
+          <S d="96256" r="6"/>
+          <S d="94208"/>
+          <S d="96256" r="6"/>
+          <S d="94208"/>
+          <S d="96256" r="6"/>
+          <S d="94208"/>
+          <S d="96256" r="6"/>
+          <S d="94208"/>
+          <S d="96256" r="6"/>
+          <S d="94208"/>
+          <S d="96256" r="6"/>
+          <S d="94208"/>
+          <S d="96256" r="6"/>
+          <S d="94208"/>
+          <S d="96256" r="6"/>
+          <S d="94208"/>
+          <S d="96256" r="6"/>
+          <S d="94208"/>
+          <S d="96256" r="6"/>
+          <S d="94208"/>
+          <S d="96256" r="6"/>
+          <S d="94208"/>
+          <S d="96256" r="6"/>
+          <S d="94208"/>
+          <S d="96256" r="6"/>
+          <S d="94208"/>
+          <S d="96256" r="6"/>
+          <S d="94208"/>
+          <S d="96256" r="6"/>
+          <S d="94208"/>
+          <S d="96256" r="6"/>
+          <S d="94208"/>
+          <S d="96256" r="6"/>
+          <S d="94208"/>
+          <S d="96256" r="6"/>
+          <S d="94208"/>
+          <S d="96256" r="6"/>
+          <S d="94208"/>
+          <S d="96256" r="6"/>
+          <S d="94208"/>
+          <S d="96256" r="6"/>
+          <S d="94208"/>
+          <S d="96256" r="6"/>
+          <S d="94208"/>
+          <S d="96256" r="6"/>
+          <S d="94208"/>
+          <S d="96256" r="6"/>
+          <S d="94208"/>
+          <S d="96256" r="6"/>
+          <S d="94208"/>
+          <S d="96256" r="6"/>
+          <S d="94208"/>
+          <S d="96256" r="6"/>
+          <S d="94208"/>
+          <S d="96256" r="6"/>
+          <S d="94208"/>
+          <S d="96256" r="6"/>
+          <S d="94208"/>
+          <S d="96256" r="6"/>
+          <S d="94208"/>
+          <S d="96256" r="6"/>
+          <S d="94208"/>
+          <S d="96256" r="6"/>
+          <S d="94208"/>
+          <S d="96256" r="6"/>
+          <S d="94208"/>
+          <S d="96256" r="6"/>
+          <S d="94208"/>
+          <S d="96256" r="6"/>
+          <S d="94208"/>
+          <S d="96256" r="6"/>
+          <S d="94208"/>
+          <S d="96256" r="6"/>
+          <S d="94208"/>
+          <S d="96256" r="6"/>
+          <S d="94208"/>
+          <S d="96256" r="6"/>
+          <S d="94208"/>
+          <S d="96256" r="6"/>
+          <S d="94208"/>
+          <S d="96256" r="6"/>
+          <S d="94208"/>
+          <S d="96256" r="6"/>
+          <S d="94208"/>
+          <S d="96256" r="6"/>
+          <S d="94208"/>
+          <S d="96256" r="6"/>
+          <S d="94208"/>
+          <S d="96256" r="6"/>
+          <S d="94208"/>
+          <S d="96256" r="6"/>
+          <S d="94208"/>
+          <S d="96256" r="6"/>
+          <S d="94208"/>
+          <S d="96256" r="6"/>
+          <S d="94208"/>
+          <S d="96256" r="6"/>
+          <S d="94208"/>
+          <S d="96256" r="6"/>
+          <S d="94208"/>
+          <S d="96256" r="6"/>
+          <S d="94208"/>
+          <S d="96256" r="6"/>
+          <S d="94208"/>
+          <S d="96256" r="6"/>
+          <S d="94208"/>
+          <S d="96256" r="6"/>
+          <S d="94208"/>
+          <S d="96256" r="6"/>
+          <S d="94208"/>
+          <S d="96256" r="6"/>
+          <S d="94208"/>
+          <S d="96256" r="6"/>
+          <S d="94208"/>
+          <S d="96256" r="6"/>
+          <S d="94208"/>
+          <S d="96256" r="6"/>
+          <S d="94208"/>
+          <S d="96256" r="6"/>
+          <S d="94208"/>
+          <S d="96256" r="6"/>
+          <S d="94208"/>
+          <S d="96256" r="6"/>
+          <S d="94208"/>
+          <S d="96256" r="6"/>
+          <S d="94208"/>
+          <S d="96256" r="6"/>
+          <S d="94208"/>
+          <S d="96256" r="6"/>
+          <S d="94208"/>
+          <S d="96256" r="6"/>
+          <S d="94208"/>
+          <S d="96256" r="6"/>
+          <S d="94208"/>
+          <S d="96256" r="6"/>
+          <S d="94208"/>
+          <S d="96256" r="6"/>
+          <S d="94208"/>
+          <S d="96256" r="6"/>
+          <S d="94208"/>
+          <S d="96256" r="6"/>
+          <S d="94208"/>
+          <S d="96256" r="6"/>
+          <S d="94208"/>
+          <S d="96256" r="6"/>
+          <S d="94208"/>
+          <S d="96256" r="6"/>
+          <S d="94208"/>
+          <S d="96256" r="6"/>
+          <S d="94208"/>
+          <S d="96256" r="6"/>
+          <S d="94208"/>
+          <S d="96256" r="6"/>
+          <S d="94208"/>
+          <S d="96256" r="6"/>
+          <S d="94208"/>
+          <S d="96256" r="6"/>
+          <S d="94208"/>
+          <S d="96256" r="6"/>
+          <S d="94208"/>
+          <S d="96256" r="6"/>
+          <S d="94208"/>
+          <S d="96256" r="6"/>
+          <S d="94208"/>
+          <S d="96256" r="6"/>
+          <S d="94208"/>
+          <S d="96256" r="5"/>
+        </SegmentTimeline>
+      </SegmentTemplate>
+      <Representation id="audio_51600_und=49600" bandwidth="49600">
+      </Representation>
+    </AdaptationSet>
+    <AdaptationSet id="2" group="2" contentType="video" par="16:9" minBandwidth="403200" maxBandwidth="4132800" maxWidth="1280" maxHeight="720" segmentAlignment="true" sar="1:1" frameRate="25" mimeType="video/mp4" startWithSAP="1">
+      <!-- Common Encryption -->
+      <ContentProtection schemeIdUri="urn:mpeg:dash:mp4protection:2011" value="cenc" cenc:default_KID="8B08559F-2EFB-4075-B6B3-1666B412932D">
+      </ContentProtection>
+      <!-- PlayReady -->
+      <ContentProtection schemeIdUri="urn:uuid:9A04F079-9840-4286-AB92-E65BE0885F95" value="MSPR 2.0">
+      </ContentProtection>
+      <!-- Widevine -->
+      <ContentProtection schemeIdUri="urn:uuid:EDEF8BA9-79D6-4ACE-A3C8-27DCD51D21ED">
+      </ContentProtection>
+      <Role schemeIdUri="urn:mpeg:dash:role:2011" value="main"/>
+      <SegmentTemplate timescale="600" initialization="Astro_warna_new-$RepresentationID$.dash" media="Astro_warna_new-$RepresentationID$-$Time$.dash">
+        <!-- 2025-10-01T13:04:25.018333Z / 1759323865 - 2025-10-01T13:34:25.018333Z -->
+        <SegmentTimeline>
+          <S t="1055594319011" d="1200" r="899"/>
+        </SegmentTimeline>
+      </SegmentTemplate>
+      <Representation id="video=403200" bandwidth="403200" width="480" height="270" codecs="avc1.640015" scanType="progressive">
+      </Representation>
+      <Representation id="video=1374000" bandwidth="1374000" width="854" height="480" codecs="avc1.64001E" scanType="progressive">
+      </Representation>
+      <Representation id="video=2089200" bandwidth="2089200" width="1024" height="576" codecs="avc1.64001F" scanType="progressive">
+      </Representation>
+      <Representation id="video=4132800" bandwidth="4132800" width="1280" height="720" codecs="avc1.64001F" scanType="progressive">
+      </Representation>
+    </AdaptationSet>
+  </Period>
+  <UTCTiming schemeIdUri="urn:mpeg:dash:utc:http-iso:2014" value="https://time.akamai.com/?iso"/>
+</MPD>
